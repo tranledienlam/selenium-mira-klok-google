@@ -1,4 +1,4 @@
-# AUTOMATION MIRA (KLOK) + GMAIL với Selenium Python
+# AUTOMATION MIRA (KLOK) + GOOGLE với Selenium Python
 
 ## ⚠ Lưu ý quan trọng
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 🎬 Video demo (cập nhật sau)
+## 🎬 Video demo
 
 <p align="center">
     <a href="https://youtu.be/b5829JOMk28">
@@ -49,14 +49,14 @@
 
 ## 🚀 Chức năng chính
 
-- **Đăng nhập Google**: Tự động đăng nhập vào tài khoản google. Lưu ý: số số trường hợp đăng nhập khôgn thành công, hãy thực hiện đăng nhập thủ công.
+- **Đăng nhập Google**: Tự động đăng nhập vào tài khoản google. Lưu ý: số số trường hợp đăng nhập không thành công, hãy thực hiện đăng nhập thủ công.
 - **Đăng nhập Klok và chat với AI 10 lần**: Tự động connect tài khoản google và chat với AI.
 
 ---
 
 ## 🔧 Yêu cầu ban đầu
 
-- Không có yêu cầu cấu hình ban đầu. Trường hợp bị lỗi tự động đăng nhập google, hãy thực hiện thủ công. Vì thỉnh thoảng sẽ xuất hiện 1 số tác vụ ngoài luồng.
+- Không có yêu cầu cấu hình ban đầu.
 
 ---
 
@@ -128,6 +128,8 @@ Trước tiên, cần cài đặt Python (phiên bản 3.8 trở lên). Nếu ch
   pip install -r requirements.txt
   ```
 
+Tuỳ thuộc vào phiên bản và cách cài đặt, có thể gọi python với các lệnh sau: `py`, `python`, `python3`.
+
 ---
 
 ## ▶ Hướng dẫn sử dụng
@@ -188,8 +190,9 @@ browser_manager.run_terminal(
     block_media=True,
 ```
 
-`True`: không tải hình ảnh và video
-`False`: tải hình ảnh và video (nếu trang web có cloudflare thì bắt buộc phải là False)
+`True`: không tải hình ảnh và video.
+
+`False`: tải hình ảnh và video (nếu trang web có cloudflare thì bắt buộc phải là `False`).
 
 ---
 
